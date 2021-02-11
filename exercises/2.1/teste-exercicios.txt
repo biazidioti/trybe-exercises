@@ -3,4 +3,5 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
-Usar e abusar do Git & GitHub
+- HTML
+- CSS
