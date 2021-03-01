@@ -13,3 +13,9 @@ console.log('Bem vinde, ' + info.personagem + '!');
 // Insira no objeto uma nova propriedade com o nome de chave "recorrente" e o valor "Sim" e, em seguida, imprima o objeto no console.
 
 console.log(info.recorrente);
+
+// Faça um for/in que mostre todas as chaves do objeto.
+
+for (let key in info) {
+  console.log(info[key]);
+}
