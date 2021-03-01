@@ -17,5 +17,5 @@ console.log(info.recorrente);
 // Faça um for/in que mostre todas as chaves do objeto.
 
 for (let key in info) {
-  console.log(info[key]);
+  console.log(key);
 }
