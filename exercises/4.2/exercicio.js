@@ -19,7 +19,6 @@ for (var index = 0; index < numbers.length; index += 1) {
    console.log(sum);
 }
 
-// 3. Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
 
 
  
