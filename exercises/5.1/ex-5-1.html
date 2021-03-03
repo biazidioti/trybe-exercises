@@ -91,6 +91,15 @@ function colorWhite() {
  
 // Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
+    function showPara() {
+        let show = document.getElementsByTagName('p');
+        for (let index = 0; index < show.length; index += 1){
+            console.log(show[index].innerHTML);
+        }
+      }
+
+    showPara();
+   
     </script>
   </body>
 </html>
