@@ -81,6 +81,13 @@ function colorWhite() {
     changeTitle();
  
 // Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+
+    function upperCase() {
+        let upperCase = document.getElementsByTagName('p')[0];
+        upperCase.innerHTML = upperCase.innerHTML.toUpperCase();
+    } 
+    
+    upperCase();
  
 // Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
