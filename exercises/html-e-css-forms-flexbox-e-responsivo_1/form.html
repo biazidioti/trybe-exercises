@@ -55,6 +55,8 @@
           required
         />
       </label>
+      <br/>
+      <br/>
       <label for="city">
         Cidade:
         <input
@@ -65,18 +67,18 @@
           required
         />
       </label>
+      <br/>
+      <br/>
       <select name="personal-info" id="state">
-            <option></option>
-       </select>
+           <div class="line-content">
+            <label for="house-apartment">Tipo de imóvel: </label>
+            <input type="radio" name="personal-info" id="house" value="house" required> <span>Casa</span>
+            <input type="radio" name="personal-info" id="apartment" value="apartment" required > <span>Apartamento</span>
+          </div>
+      </select>
+      <br>
+      <br>
+     
     </form>
   </body>
 </html>
-
-
-Estado - ComboBox
-Todos os estados do Brasil
-Utilize estruturas de repetição via JavaScript para gerar os <option>
-Campo obrigatório
-Tipo - Radio Button
-Casa, Apartamento
-Campo obrigatório
