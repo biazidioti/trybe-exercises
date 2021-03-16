@@ -7,8 +7,16 @@
     <title>Forms</title>
   </head>
   <body>
-    <h2>Preencha os campos abaixo</h2>
+    <header class="form-header">
+      <h1>Formulário para cadastro de currículo</h1>
+      <p>Preencha os campos abaixo.</p>
+    </header>
+  
+ 
     <form>
+      <fieldset>
+        <legend>Informações pessoais</legend>
+        <br>
       <label for="name">
         Nome:
         <input
@@ -69,13 +77,19 @@
       </label>
       <br/>
       <br/>
-      <select name="personal-info" id="state">
-           <div class="line-content">
+      <label for="state">Estado: </label>
+            <select name="personal-info" id="state" value = "" required>
+            </select>
+        <br/>
+        <br/>
+        <br/>
+         <div class="line-content">
             <label for="house-apartment">Tipo de imóvel: </label>
             <input type="radio" name="personal-info" id="house" value="house" required> <span>Casa</span>
             <input type="radio" name="personal-info" id="apartment" value="apartment" required > <span>Apartamento</span>
           </div>
       </select>
+    </fieldset>
       <br>
       <br>
      
