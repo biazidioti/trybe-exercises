@@ -85,3 +85,12 @@ const estudantes = [
   }
 
   console.log(allNameStudents); */
+
+  // Agora usando o  map e o filter
+
+  const allNameStudents = estudantes.filter((element) => 
+  (element.turno === 'Tarde')).map((element) => 
+  `O nome do aluno é: ${element.nome} e tem ${element.idade} anos`);
+
+  console.log(allNameStudents);
+
